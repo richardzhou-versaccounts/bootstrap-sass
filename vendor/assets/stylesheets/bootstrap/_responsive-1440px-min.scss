@@ -1,0 +1,28 @@
+//
+// Responsive: Large desktop up to 1599
+// --------------------------------------------------
+
+
+@media (min-width: 1200px) and (max-width: 1599px) {
+
+  // Fixed grid
+  @include grid-core($gridColumnWidth1440, $gridGutterWidth1440);
+
+  // Fluid grid
+  @include grid-fluid($fluidGridColumnWidth1440, $fluidGridGutterWidth1440);
+
+  // Input grid
+  @include grid-input($gridColumnWidth1440, $gridGutterWidth1440);
+
+  // Thumbnails
+  .thumbnails {
+    margin-left: -$gridGutterWidth1440;
+  }
+  .thumbnails > li {
+    margin-left: $gridGutterWidth1440;
+  }
+  .row-fluid .thumbnails {
+    margin-left: 0;
+  }
+
+}

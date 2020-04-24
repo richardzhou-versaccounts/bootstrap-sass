@@ -1,9 +1,9 @@
 //
-// Responsive: Large desktop and up
+// Responsive: Large desktop and up to 1439
 // --------------------------------------------------
 
 
-@media (min-width: 1200px) {
+@media (min-width: 1200px) and (max-width: 1439px) {
 
   // Fixed grid
   @include grid-core($gridColumnWidth1200, $gridGutterWidth1200);

@@ -276,6 +276,16 @@ $gridColumnWidth:         60px !default;
 $gridGutterWidth:         20px !default;
 $gridRowWidth:            ($gridColumns * $gridColumnWidth) + ($gridGutterWidth * ($gridColumns - 1)) !default;
 
+// 1600px min
+$gridColumnWidth1600:     93px !default;;
+$gridGutterWidth1600:     40px !default;;
+$gridRowWidth1600:        ($gridColumns * $gridColumnWidth1600) + ($gridGutterWidth1600 * ($gridColumns - 1)) !default;
+
+// 1440px min
+$gridColumnWidth1440:     84px !default;;
+$gridGutterWidth1440:     36px !default;;
+$gridRowWidth1440:        ($gridColumns * $gridColumnWidth1440) + ($gridGutterWidth1440 * ($gridColumns - 1)) !default;
+
 // 1200px min
 $gridColumnWidth1200:     70px !default;
 $gridGutterWidth1200:     30px !default;
@@ -287,10 +297,20 @@ $gridGutterWidth768:      20px !default;
 $gridRowWidth768:         ($gridColumns * $gridColumnWidth768) + ($gridGutterWidth768 * ($gridColumns - 1)) !default;
 
 
+
 // Fluid grid
 // -------------------------
 $fluidGridColumnWidth:    percentage($gridColumnWidth/$gridRowWidth) !default;
 $fluidGridGutterWidth:    percentage($gridGutterWidth/$gridRowWidth) !default;
+
+// 1600 min
+$fluidGridColumnWidth1600:     percentage($gridColumnWidth1600/$gridRowWidth1600) !default;
+$fluidGridGutterWidth1600:     percentage($gridGutterWidth1600/$gridRowWidth1600) !default;
+
+
+// 1440 min
+$fluidGridColumnWidth1440:     percentage($gridColumnWidth1440/$gridRowWidth1440) !default;
+$fluidGridGutterWidth1440:     percentage($gridGutterWidth1440/$gridRowWidth1440) !default;
 
 // 1200px min
 $fluidGridColumnWidth1200:     percentage($gridColumnWidth1200/$gridRowWidth1200) !default;
