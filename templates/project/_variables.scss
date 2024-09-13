@@ -354,7 +354,7 @@ $fluidGridGutterWidth768:      percentage($gridGutterWidth768/$gridRowWidth768) 
 // Fluid grid
 // -------------------------
 $compactFluidGridColumnWidth:    percentage($compactGridColumnWidth/$compactGridRowWidth) !default;
-$compactGluidGridGutterWidth:    percentage($compactGridGutterWidth/$compactGridRowWidth) !default;
+$compactFluidGridGutterWidth:    percentage($compactGridGutterWidth/$compactGridRowWidth) !default;
 
 // 1600 min
 $compactFluidGridColumnWidth1600:     percentage($compactGridColumnWidth1600/$compactGridRowWidth1600) !default;
