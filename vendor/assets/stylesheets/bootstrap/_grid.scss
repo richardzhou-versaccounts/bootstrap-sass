@@ -9,6 +9,9 @@
 // Fluid (940px)
 @include grid-fluid($fluidGridColumnWidth, $fluidGridGutterWidth);
 
+@include compact-grid-fluid($compactFluidGridColumnWidth, $compactFluidGridGutterWidth);
+
+
 // Reset utility classes due to specificity
 [class*="span"].hide,
 .row-fluid [class*="span"].hide {

@@ -11,6 +11,8 @@
   // Fluid grid
   @include grid-fluid($fluidGridColumnWidth768, $fluidGridGutterWidth768);
 
+  @include compact-grid-fluid($compactFluidGridColumnWidth768, $compactFluidGridGutterWidth768);
+
   // Input grid
   @include grid-input($gridColumnWidth768, $gridGutterWidth768);
 
