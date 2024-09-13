@@ -297,6 +297,33 @@ $gridGutterWidth768:      20px !default;
 $gridRowWidth768:         ($gridColumns * $gridColumnWidth768) + ($gridGutterWidth768 * ($gridColumns - 1)) !default;
 
 
+//compact
+
+
+$compactGridColumnWidth:         75px !default;
+$compactGridGutterWidth:         4px !default;
+$compactGridRowWidth:            ($gridColumns * $compactGridColumnWidth) + ($compactGridGutterWidth * ($gridColumns - 1)) !default;
+
+// 1600px min
+$compactGridColumnWidth1600:     126px !default;;
+$compactGridGutterWidth1600:     4px !default;;
+$compactGridRowWidth1600:        ($gridColumns * $compactGridColumnWidth1600) + ($compactGridGutterWidth1600 * ($gridColumns - 1)) !default;
+
+// 1440px min
+$compactGridColumnWidth1440:     114px !default;;
+$compactGridGutterWidth1440:     4px !default;;
+$compactGridRowWidth1440:        ($gridColumns * $compactGridColumnWidth1440) + ($compactGridGutterWidth1440 * ($gridColumns - 1)) !default;
+
+// 1200px min
+$compactGridColumnWidth1200:     94px !default;
+$compactGridGutterWidth1200:     4px !default;
+$compactGridRowWidth1200:        ($gridColumns * $compactGridColumnWidth1200) + ($compactGridGutterWidth1200 * ($gridColumns - 1)) !default;
+
+// 768px-979px
+$compactGridColumnWidth768:      57px !default;
+$compactGridGutterWidth768:      4px !default;
+$compactGridRowWidth768:         ($gridColumns * $compactGridColumnWidth768) + ($compactGridGutterWidth768 * ($gridColumns - 1)) !default;
+
 
 // Fluid grid
 // -------------------------
@@ -319,3 +346,26 @@ $fluidGridGutterWidth1200:     percentage($gridGutterWidth1200/$gridRowWidth1200
 // 768px-979px
 $fluidGridColumnWidth768:      percentage($gridColumnWidth768/$gridRowWidth768) !default;
 $fluidGridGutterWidth768:      percentage($gridGutterWidth768/$gridRowWidth768) !default;
+
+// compact Fluid grid
+// -------------------------
+$compactFluidGridColumnWidth:    percentage($compactGridColumnWidth/$compactGridRowWidth) !default;
+$compactFluidGridGutterWidth:    percentage($compactGridGutterWidth/$compactGridRowWidth) !default;
+
+// 1600 min
+$compactFluidGridColumnWidth1600:     percentage($compactGridColumnWidth1600/$compactGridRowWidth1600) !default;
+$compactFluidGridGutterWidth1600:     percentage($compactGridGutterWidth1600/$compactGridRowWidth1600) !default;
+
+
+// 1440 min
+$compactFluidGridColumnWidth1440:     percentage($compactGridColumnWidth1440/$compactGridRowWidth1440) !default;
+$compactFluidGridGutterWidth1440:     percentage($compactGridGutterWidth1440/$compactGridRowWidth1440) !default;
+
+// 1200px min
+$compactFluidGridColumnWidth1200:     percentage($compactGridColumnWidth1200/$compactGridRowWidth1200) !default;
+$compactFluidGridGutterWidth1200:     percentage($compactGridGutterWidth1200/$compactGridRowWidth1200) !default;
+
+// 768px-979px
+$compactFluidGridColumnWidth768:      percentage($compactGridColumnWidth768/$compactGridRowWidth768) !default;
+$compactFluidGridGutterWidth768:      percentage($compactGridGutterWidth768/$compactGridRowWidth768) !default;
+
