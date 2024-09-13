@@ -351,7 +351,7 @@ $fluidGridGutterWidth768:      percentage($gridGutterWidth768/$gridRowWidth768) 
 
 //compact
 
-/ Fluid grid
+// Fluid grid
 // -------------------------
 $compactFluidGridColumnWidth:    percentage($compactGridColumnWidth/$compactGridRowWidth) !default;
 $compactGluidGridGutterWidth:    percentage($compactGridGutterWidth/$compactGridRowWidth) !default;
